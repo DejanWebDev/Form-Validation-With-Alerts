@@ -1,0 +1,126 @@
+*
+{
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #38bfe8, #b943e0);
+    overflow: hidden;
+}
+
+form
+{
+    position: relative;
+    background-color: white;
+    width: 20%;
+    height: 60vh;
+    display: grid;
+    align-content: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    border-radius: 10px;
+}
+
+h1
+{
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 0;
+}
+
+label
+{
+    margin-left: 5%;
+    width: 100%;
+    margin-top: 10%;
+    color: gray;
+}
+
+input
+{
+    width: 90%;
+    position: relative;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: gray;
+    border-width: 1px;
+    outline: none;
+}
+
+#button
+{
+    background: linear-gradient(to right, #38bfe8, #b943e0);
+    border-radius: 50px;
+    top: 90%;
+    border-bottom: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    margin-left: 5%;
+}
+
+#input_err
+{
+    width: 90%;
+    position: relative;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: red;
+    border-width: 1px;
+    outline: none;
+}
+
+#un
+{
+    width: 90%;
+    position: relative;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: gray;
+    border-width: 1px;
+    outline: none;
+}
+
+#un_err
+{
+    width: 90%;
+    position: relative;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: red;
+    border-width: 1px;
+    outline: none;
+}
